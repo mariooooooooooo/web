@@ -60,8 +60,9 @@ ul.lead {
 /*Index Page Hero Image */
 #home {
     background: url("../img/zahle.jpeg") no-repeat center center fixed;
-    display: table;                     /* To display the text as table element */
+    display: table;
     height: 100%;
+    position: relative;
     width: 100%;
     background-size: cover;
 }
@@ -202,6 +203,7 @@ h4 {
 #fixed {
     background: url(../img/2.jpg) no-repeat center center fixed;
     height: 60%;
+    position: relative;
     width: 100%;
     background-size: cover;
 }
